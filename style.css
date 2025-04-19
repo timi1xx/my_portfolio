@@ -1,0 +1,351 @@
+/* body {
+    background-color: black;
+    overflow-x: hidden;
+    height: 730px;
+}
+.image {
+    position: relative;
+    border: 1px solid purple;
+    box-shadow: 0 0 10px 10px purple;
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.image:hover {
+    box-shadow: 0 0 15px 15px purple;
+}
+#image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+}
+.know {
+    position: absolute;
+    border: 1px solid purple;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px purple;
+    transition: box-shadow 0.3s ease;
+    width: 450px;
+    height: 300px;
+    top: 180px;
+    left: 700px;
+}
+.know:hover {
+    box-shadow: 0 0 15px 15px purple;
+}
+#text {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+    color: white;
+    top: 200px;
+    left: 830px;
+}
+.progres-1 {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    left: 820px;
+    top: 300px;
+}
+#progres-fill {
+    width: 80%;
+    height: 100%;
+    background-color: purple;
+    transition: width 0.3 ease;
+}
+#progres-text {
+    position: absolute;
+    font-family: fantasy;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    top: 275px;
+    left: 750px;
+}
+.progres-2 {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    left: 820px;
+    top: 350px;
+}
+#progres-fill-2 {
+    width: 65%;
+    height: 100%;
+    background: purple;
+    transition: width 0.3 ease;
+}
+#progres-2-text {
+    position: absolute;
+    font-family: fantasy;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    top: 325px;
+    left: 750px;
+    letter-spacing: 2px;
+}
+.progres-3 {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    left: 820px;
+    top: 400px;
+}
+#progres-fill-3 {
+    width: 45%;
+    height: 100%;
+    background-color: purple;
+    transition: width 0.3 ease;
+}
+#progres-3-text {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    top: 375px;
+    left: 750px;
+}
+#about-name {
+    position: absolute;
+    font-family: fantasy;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: white;
+    top: 600px;
+    left: 550px;
+    cursor: pointer;
+}
+#about-text {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 730px;
+    left: 100px;
+    cursor: pointer;
+}
+#contact-text {
+    position: absolute;
+    font-size: 40px;
+    top: 830px;
+    left: 10px;
+    color: white;
+}
+#contact-image {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 830px;
+    left: 300px;
+}
+#contact-image-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 812px;
+    left: 370px;
+} */
+
+/* === Оригинальные стили (не изменялись) === */
+
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    position: relative;
+    border: 1px solid purple;
+    box-shadow: 0 0 10px 10px purple;
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 170px auto 0 auto;
+    overflow: hidden;
+}
+
+.image:hover {
+    box-shadow: 0 0 15px 15px purple;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.know {
+    border: 1px solid purple;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px purple;
+    transition: box-shadow 0.3s ease;
+    width: 370px;
+    height: 300px;
+    margin: 35px auto;
+    position: absolute;
+    overflow: hidden;
+}
+.know:hover {
+    box-shadow: 0 0 15px 15px purple;
+}
+
+#text {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.progres-1, .progres-2, .progres-3 {
+    width: 80%;
+    max-width: 300px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#progres-fill, #progres-fill-2, #progres-fill-3 {
+    height: 100%;
+    background-color: purple;
+}
+
+#progres-fill {
+    width: 80%;
+}
+#progres-fill-2 {
+    width: 65%;
+}
+#progres-fill-3 {
+    width: 45%;
+}
+
+#progres-text, #progres-2-text, #progres-3-text {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+#about-name {
+    font-family: fantasy;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+#about-text {
+    color: white;
+    font-size: 24px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+#contact-text {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contact-image, #contact-image-2 {
+    display: inline-block;
+    margin: 20px 10px;
+    vertical-align: middle;
+}
+
+#contact-image {
+    width: 60px;
+    height: 60px;
+}
+#contact-image-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    text-align: center;
+}
+
+/* 📱 Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 600px) {
+    .image {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #text {
+        font-size: 30px;
+    }
+
+    .know {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .progres-1, .progres-2, .progres-3 {
+        width: 90%;
+    }
+
+    #about-name {
+        font-size: 32px;
+    }
+
+    #about-text {
+        font-size: 18px;
+    }
+
+    #contact-text {
+        font-size: 24px;
+    }
+
+    #contact-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    #contact-image-2 {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
